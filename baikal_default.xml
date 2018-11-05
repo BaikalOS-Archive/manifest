@@ -53,7 +53,7 @@
   <project path="frameworks/native" name="baikalos/frameworks_native" remote="baikalos" groups="pdk" />
   <project path="frameworks/opt/baikalosgear" name="baikalos/frameworks_opt_baikalosgear" remote="baikalos" />
   <project path="hardware/interfaces" name="baikalos/hardware_interfaces" groups="pdk" remote="baikalos" />
-  <project path="packages/apps/baikalos_OTA" name="baikalos/packages_apps_baikalos_OTA" remote="baikalos" />
+  <project path="packages/apps/BaikalDelta" name="baikalos/android_packages_apps_BaikalDelta" remote="baikalos" />
   <project path="packages/apps/baikalosExtras" name="baikalos/packages_apps_baikalosExtras" remote="baikalos" />
   <project path="packages/apps/Dialer" name="baikalos/packages_apps_Dialer" remote="baikalos" />
   <project path="packages/apps/Settings" name="baikalos/packages_apps_Settings" remote="baikalos" groups="pdk-fs" />
