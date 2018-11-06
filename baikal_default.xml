@@ -15,8 +15,8 @@
   <remove-project name="manifest" />
   <!-- remove-project name="bionic" /-->
   <remove-project name="build" />
-  <!-- remove-project name="build_soong" />
-  <remove-project name="device_gzosp_sepolicy" />
+  <remove-project name="build_soong" />
+  <!-- remove-project name="device_gzosp_sepolicy" />
   <remove-project name="device_qcom_sepolicy" />
   <remove-project name="frameworks_av" /-->
   <remove-project name="frameworks_base" />
@@ -40,10 +40,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <!-- project path="build/soong" name="baikalos/build_soong"  remote="baikalos" >
+  <project path="build/soong" name="baikalos/build_soong"  remote="baikalos" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project -->
+  </project>
   <!-- project path="bionic" name="baikalos/bionic" remote="baikalos" />
   <project path="device/baikalos/sepolicy" name="baikalos/device_baikalos_sepolicy" remote="baikalos" />
   <project path="device/qcom/sepolicy" name="baikalos/device_qcom_sepolicy" remote="baikalos" />
