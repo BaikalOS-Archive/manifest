@@ -603,4 +603,6 @@
   <!-- CAF manifest -->
   <include name="caf_default.xml" />
 
+  <include name="baikal_default.xml" />
+
 </manifest>
