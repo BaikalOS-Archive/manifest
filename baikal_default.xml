@@ -24,7 +24,7 @@
   <remove-project name="hardware_interfaces" />
   <remove-project name="packages_apps_Dialer" / -->
   <remove-project name="packages_apps_Settings" />
-  <!-- remove-project name="platform/packages/services/Telephony" / -->
+  <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="system_core" />
   <remove-project name="vendor_gzosp" />
 
@@ -58,8 +58,8 @@
   <!--<project path="packages/apps/Dialer" name="baikalos/packages_apps_Dialer" remote="baikalos" / -->
   <project path="packages/apps/Settings" name="baikalos/packages_apps_Settings" remote="baikalos" groups="pdk-fs" />
   <!-- project path="packages/apps/SnapdragonCamera" name="baikalos/packages_apps_SnapdragonCamera" remote="baikalos" />
-  <project path="packages/overlays/baikalos" name="baikalos/packages_overlays_baikalos" remote="baikalos" />
-  <project path="packages/services/Telephony" name="baikalos/packages_services_Telephony" remote="baikalos" / -->
+  <project path="packages/overlays/baikalos" name="baikalos/packages_overlays_baikalos" remote="baikalos" /-->
+  <project path="packages/services/Telephony" name="baikalos/packages_services_Telephony" remote="baikalos" />
   <project path="system/core" name="baikalos/system_core" remote="baikalos" groups="pdk" />
   <project path="vendor/baikalos" name="baikalos/vendor_baikalos" remote="baikalos" />
 
