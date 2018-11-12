@@ -3,7 +3,7 @@
 
   <remote  name="baikalos"
            fetch="https://github.com/"
-           review="gerrit.baikalos.org"
+           review="gerrit.baikalos.ru"
            revision="refs/heads/pi" />
 
   <remote  name="lineage"
