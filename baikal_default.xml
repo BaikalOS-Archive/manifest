@@ -11,6 +11,9 @@
            review="review.lineageos.org"
            revision="refs/heads/lineage-16.0" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <!-- Remove unused projects -->
   <remove-project name="manifest" />
   <!-- remove-project name="bionic" /-->
@@ -69,5 +72,8 @@
   <project path="packages/services/Telephony" name="baikalos/packages_services_Telephony" remote="baikalos" />
   <project path="system/core" name="baikalos/system_core" remote="baikalos" groups="pdk" />
   <project path="vendor/baikalos" name="baikalos/vendor_baikalos" remote="baikalos" />
+
+  <!-- OmniROM repositories -->
+  <project path="packages/apps/OmniChromium" name="omnirom/android_packages_apps_OmniChromium" remote="gitlab" revision="android-9.0" />
 
 </manifest>
