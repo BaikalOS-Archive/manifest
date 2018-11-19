@@ -81,4 +81,7 @@
   <!-- OmniROM repositories -->
   <project path="packages/apps/OmniChromium" name="omnirom/android_packages_apps_OmniChromium" remote="gitlab" revision="android-9.0" />
 
+  <!-- NitrogenOS repositories -->
+  <project path="packages/apps/OmniRecord" name="nitrogen-project/android_packages_apps_OmniRecord" remote="github" revision="p" />
+
 </manifest>
