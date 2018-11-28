@@ -34,8 +34,8 @@
   <remove-project name="hardware_ril" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/MusicFX" />
-  <remove-project name="vendor_codeaurora_telephony" />
-  <remove-project name="frameworks_opt_telephony" />
+  <!-- remove-project name="vendor_codeaurora_telephony" />
+  <remove-project name="frameworks_opt_telephony" / -->
 
 
   <!-- Track ril from our own -->
@@ -82,8 +82,8 @@
   <project path="packages/services/Telephony" name="baikalos/packages_services_Telephony" remote="baikalos" />
   <project path="system/core" name="baikalos/system_core" remote="baikalos" groups="pdk" />
   <project path="vendor/baikalos" name="baikalos/vendor_baikalos" remote="baikalos" />
-  <project path="vendor/codeaurora/telephony" name="baikalos/vendor_codeaurora_telephony" remote="baikalos" />
-  <project path="frameworks/opt/telephony" name="baikalos/frameworks_opt_telephony" remote="baikalos" />
+  <!-- project path="vendor/codeaurora/telephony" name="baikalos/vendor_codeaurora_telephony" remote="baikalos" />
+  <project path="frameworks/opt/telephony" name="baikalos/frameworks_opt_telephony" remote="baikalos" / -->
 
   <!-- OmniROM repositories -->
   <project path="packages/apps/OmniChromium" name="omnirom/android_packages_apps_OmniChromium" remote="gitlab" revision="android-9.0" />
