@@ -37,7 +37,6 @@
   <!-- remove-project name="vendor_codeaurora_telephony" />
   <remove-project name="frameworks_opt_telephony" / -->
 
-
   <!-- Track ril from our own -->
   <project path="hardware/ril" name="hardware_ril" remote="baikalos" revision="9.0" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="baikalos" revision="9.0-caf" />
@@ -47,7 +46,6 @@
   <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8994" />
   <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8998" />
-
 
   <!-- Baikal repositories -->
   <project path="platform_manifest" name="manifest" remote="baikalos" />
