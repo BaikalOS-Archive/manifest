@@ -3,7 +3,7 @@ BaikalOS
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/baikalos/manifest.git -b pi
+	repo init -u https://github.com/baikalos/manifest.git -b pi-caf
 
 Submitting Patches
 ------------------
