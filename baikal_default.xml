@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="baikalos"
-           fetch="https://github.com/"
+           fetch="https://github.com/BaikalOS"
            review="review.baikalos.ru"
            revision="refs/heads/pi" />
 
@@ -27,7 +27,6 @@
   <remove-project name="hardware_interfaces" /-->
   <remove-project name="packages_apps_Dialer" />
   <remove-project name="packages_apps_Settings" />
-  <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="system_core" />
   <remove-project name="vendor_gzosp" />
   <remove-project name="hardware_qcom_audio" />
@@ -35,20 +34,29 @@
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/MusicFX" />
 
+  <remove-project name="vendor_codeaurora_telephony" />
+  <remove-project name="frameworks_opt_telephony" />
+  <remove-project name="platform/packages/apps/PhoneCommon" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="packages_services_Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
+
+
+
   <!-- Track ril from our own -->
-  <project path="hardware/ril" name="baikalos/hardware_ril" remote="baikalos" revision="9.0" />
-  <project path="hardware/ril-caf" name="baikalos/hardware_ril" remote="baikalos" revision="9.0-caf" />
+  <project path="hardware/ril" name="hardware_ril" remote="baikalos" revision="9.0" />
+  <project path="hardware/ril-caf" name="hardware_ril" remote="baikalos" revision="9.0-caf" />
 
   <!-- Track audio-caf from our own -->
-  <project path="hardware/qcom/audio-caf/msm8974" name="baikalos/hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="baikalos/hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="baikalos/hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="baikalos/hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8998" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8998" />
 
 
   <!-- Baikal repositories -->
-  <project path="platform_manifest" name="baikalos/manifest" remote="baikalos" />
-  <project path="build/make" name="baikalos/build" remote="baikalos" groups="pdk" >
+  <project path="platform_manifest" name="manifest" remote="baikalos" />
+  <project path="build/make" name="build" remote="baikalos" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -57,28 +65,37 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="baikalos/build_soong"  remote="baikalos" >
+  <project path="build/soong" name="build_soong"  remote="baikalos" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <!-- project path="bionic" name="baikalos/bionic" remote="baikalos" />
-  <project path="device/baikalos/sepolicy" name="baikalos/device_baikalos_sepolicy" remote="baikalos" />
-  <project path="device/qcom/sepolicy" name="baikalos/device_qcom_sepolicy" remote="baikalos" />
-  <project path="device/qcom/sepolicy-legacy" name="baikalos/device_qcom_sepolicy-legacy" remote="baikalos" />
-  <project path="frameworks/av" name="baikalos/frameworks_av" remote="baikalos" groups="pdk" / -->
-  <project path="frameworks/base" name="baikalos/frameworks_base" remote="baikalos" groups="pdk-cw-fs,pdk-fs" />
-  <!-- project path="frameworks/native" name="baikalos/frameworks_native" remote="baikalos" groups="pdk" />-->
-  <project path="frameworks/opt/baikalosgear" name="baikalos/frameworks_opt_baikalosgear" remote="baikalos" />
-  <!--<project path="hardware/interfaces" name="baikalos/hardware_interfaces" groups="pdk" remote="baikalos" / -->
-  <project path="packages/apps/BaikalDelta" name="baikalos/android_packages_apps_BaikalDelta" remote="baikalos" />
-  <project path="packages/apps/BaikalOSExtras" name="baikalos/packages_apps_BaikalOSExtras" remote="baikalos" />
-  <project path="packages/apps/Dialer" name="baikalos/packages_apps_Dialer" remote="baikalos" />
-  <project path="packages/apps/Settings" name="baikalos/packages_apps_Settings" remote="baikalos" groups="pdk-fs" />
-  <!-- project path="packages/apps/SnapdragonCamera" name="baikalos/packages_apps_SnapdragonCamera" remote="baikalos" /-->
-  <project path="packages/overlays/BaikalOS" name="baikalos/packages_overlays_BaikalOS" remote="baikalos" />
-  <project path="packages/services/Telephony" name="baikalos/packages_services_Telephony" remote="baikalos" />
-  <project path="system/core" name="baikalos/system_core" remote="baikalos" groups="pdk" />
-  <project path="vendor/baikalos" name="baikalos/vendor_baikalos" remote="baikalos" />
+  <!-- project path="bionic" name="bionic" remote="baikalos" />
+  <project path="device/sepolicy" name="device_baikalos_sepolicy" remote="baikalos" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="baikalos" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="baikalos" />
+  <project path="frameworks/av" name="frameworks_av" remote="baikalos" groups="pdk" / -->
+  <project path="frameworks/base" name="frameworks_base" remote="baikalos" groups="pdk-cw-fs,pdk-fs" revision="caf-tel" />
+  <!-- project path="frameworks/native" name="frameworks_native" remote="baikalos" groups="pdk" />-->
+  <project path="frameworks/opt/baikalosgear" name="frameworks_opt_baikalosgear" remote="baikalos" />
+  <!--<project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="baikalos" / -->
+  <project path="packages/apps/BaikalDelta" name="android_packages_apps_BaikalDelta" remote="baikalos" />
+  <project path="packages/apps/BaikalOSExtras" name="packages_apps_BaikalOSExtras" remote="baikalos" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="baikalos" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="baikalos" groups="pdk-fs" />
+  <!-- project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="baikalos" /-->
+  <project path="packages/overlays/BaikalOS" name="packages_overlays_BaikalOS" remote="baikalos" />
+  <project path="system/core" name="system_core" remote="baikalos" groups="pdk" />
+  <project path="vendor/baikalos" name="vendor_baikalos" remote="baikalos" />
+
+  <!-- caf telephony -->
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="baikalos" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="baikalos" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="baikalos" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="baikalos" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="baikalos" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="baikalos" />
+  <project path="hardware/baikalos/telephony" name="hardware_baikalos_telephony" remote="baikalos" />
+
 
   <!-- OmniROM repositories -->
   <project path="packages/apps/OmniChromium" name="omnirom/android_packages_apps_OmniChromium" remote="gitlab" revision="android-9.0" />
