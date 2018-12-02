@@ -74,7 +74,7 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="baikalos" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="baikalos" />
   <project path="frameworks/av" name="frameworks_av" remote="baikalos" groups="pdk" / -->
-  <project path="frameworks/base" name="frameworks_base" remote="baikalos" groups="pdk-cw-fs,pdk-fs" revision="caf-tel" />
+  <project path="frameworks/base" name="frameworks_base" remote="baikalos" groups="pdk-cw-fs,pdk-fs" />
   <!-- project path="frameworks/native" name="frameworks_native" remote="baikalos" groups="pdk" />-->
   <project path="frameworks/opt/baikalosgear" name="frameworks_opt_baikalosgear" remote="baikalos" />
   <!--<project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="baikalos" / -->
