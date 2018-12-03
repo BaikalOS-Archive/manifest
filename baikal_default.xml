@@ -37,7 +37,6 @@
 
   <remove-project name="vendor_codeaurora_telephony" />
   <remove-project name="frameworks_opt_telephony" />
-  <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="packages_services_Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -96,7 +95,6 @@
   <!-- caf telephony -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="baikalos" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="baikalos" />
-  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="baikalos" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="baikalos" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="baikalos" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="baikalos" />
