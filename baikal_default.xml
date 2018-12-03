@@ -91,15 +91,12 @@
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="baikalos" />
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="baikalos" revision="pi-caf" />
 
-
   <!-- caf telephony -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="baikalos" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="baikalos" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="baikalos" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="baikalos" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="baikalos" />
-  <project path="hardware/baikalos/telephony" name="hardware_baikalos_telephony" remote="baikalos" />
-
 
   <!-- OmniROM repositories -->
   <project path="packages/apps/OmniChromium" name="omnirom/android_packages_apps_OmniChromium" remote="gitlab" revision="android-9.0" />
