@@ -1,4 +1,4 @@
-####XDA Template Example
+#### XDA Template Example
 
 ```
 [CENTER][SIZE="5"][B][COLOR="Blue"]BaikalOS Pie PowerSave[/COLOR][/B]: minimize your battery drain. 
