@@ -14,7 +14,7 @@ Based on the Ground Zero Android Open Source Project ([B]GZOSP[/B]) and enriched
 
 [SIZE="3"][B]Downloads:[/B][/SIZE]
 [B]Supported devices:[/B] LEX820 (X2_CN), LEX821 (X2_WW), LEX822 (X2_CN), LEX829 (X2_NA)
-[LIST][*] Official builds with delta-ota: https://dl.baikalos.ru/x2/
+[LIST][*] [B]BaikalOS official builds[/B] with delta-ota: [URL="https://dl.baikalos.ru/x2/"]DOWNLOAD[/URL]
 [*][URL="http://opengapps.org/"]Open Gapps[/URL] (ARM64, 9.0, pico or micro recomend) 
 [*]TWRP for 9.0 treble [URL="https://drive.google.com/open?id=1kCK73vrGcAMQOqUik2XD0w8d0TBGJ_Z4"]here[/URL]
 [*]Google Camera: (Recommend Tolyan009 builds as Arnova8G2 builds are not always compatible with Pie x2 ROMs [URL="https://www.celsoazevedo.com/files/android/google-camera/"]here[/URL]
