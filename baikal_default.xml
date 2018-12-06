@@ -108,4 +108,10 @@
 
   <!-- NitrogenOS repositories -->
   <project path="packages/apps/OmniRecord" name="nitrogen-project/android_packages_apps_OmniRecord" remote="github" revision="p" />
+
+  <!-- LineageOS repositories -->
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
+
 </manifest>
