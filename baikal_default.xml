@@ -20,8 +20,8 @@
   <remove-project name="build" />
   <remove-project name="build_soong" />
   <!-- remove-project name="device_gzosp_sepolicy" />
-  <remove-project name="device_qcom_sepolicy" />
-  <remove-project name="frameworks_av" /-->
+  <remove-project name="device_qcom_sepolicy" /-->
+  <remove-project name="frameworks_av" />
   <remove-project name="frameworks_base" />
   <!-- remove-project name="frameworks_native" />
   <remove-project name="hardware_interfaces" /-->
@@ -82,8 +82,8 @@
   <!-- project path="bionic" name="bionic" remote="baikalos" />
   <project path="device/sepolicy" name="device_baikalos_sepolicy" remote="baikalos" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="baikalos" />
-  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="baikalos" />
-  <project path="frameworks/av" name="frameworks_av" remote="baikalos" groups="pdk" / -->
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="baikalos" / -->
+  <project path="frameworks/av" name="frameworks_av" remote="baikalos" groups="pdk" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="baikalos" />
   <project path="frameworks/base" name="frameworks_base" remote="baikalos" groups="pdk-cw-fs,pdk-fs" />
   <!-- project path="frameworks/native" name="frameworks_native" remote="baikalos" groups="pdk" />-->
