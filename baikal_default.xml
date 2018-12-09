@@ -6,6 +6,11 @@
            review="review.baikalos.ru"
            revision="refs/heads/pi" />
 
+  <remote  name="baikalos-devices"
+           fetch="https://github.com/baikalos-devices"
+           review="review.baikalos.ru"
+           revision="refs/heads/pi" />
+
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
            review="review.lineageos.org"
