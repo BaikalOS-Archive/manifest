@@ -98,6 +98,7 @@
   <project path="packages/overlays/BaikalOS" name="packages_overlays_BaikalOS" remote="baikalos" />
   <project path="system/core" name="system_core" remote="baikalos" groups="pdk" />
   <project path="vendor/baikalos" name="vendor_baikalos" remote="baikalos" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="baikalos" />
 
   <!-- Wlan -->
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="baikalos" />
@@ -118,7 +119,7 @@
 
   <!-- NitrogenOS repositories -->
   <project path="packages/apps/OmniRecord" name="nitrogen-project/android_packages_apps_OmniRecord" remote="github" revision="p" />
-  <project path="packages/apps/Launcher3" name="nitrogen-project/android_packages_apps_Launcher3" remote="github" revision="p" />
+
 
   <!-- LineageOS repositories -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
