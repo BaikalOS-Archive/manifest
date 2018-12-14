@@ -45,7 +45,7 @@ Based on the Ground Zero Android Open Source Project ([B]GZOSP[/B]) and enriched
 
 [SIZE="3"][B]BaikalOS Team:[/B][/SIZE]
 [LIST][*]Andrey S. Shidakov (@andr68rus)
-[*]Sergey Vasisiev (@sdv22)[/LIST]
+[*]Sergey Vasiliev (@sdv22)[/LIST]
 
 [SIZE="3"][B]ROM maintained for X2 by:[/B][/SIZE]
 [LIST][*]Andrey S. Shidakov (@andr68rus)
