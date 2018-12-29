@@ -28,6 +28,7 @@
   <remove-project name="device_qcom_sepolicy" /-->
   <remove-project name="frameworks_av" />
   <remove-project name="frameworks_base" />
+  <remove-project name="frameworks_opt_net_wifi" />
   <!-- remove-project name="frameworks_native" / -->
   <remove-project name="packages_apps_Dialer" />
   <remove-project name="packages_apps_Settings" />
@@ -95,6 +96,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="baikalos" groups="pdk" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="baikalos" />
   <project path="frameworks/base" name="frameworks_base" remote="baikalos" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="baikalos" />
   <!-- project path="frameworks/native" name="frameworks_native" remote="baikalos" groups="pdk" />-->
   <project path="frameworks/opt/baikalosgear" name="frameworks_opt_baikalosgear" remote="baikalos" />
   <!--<project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="baikalos" / -->
