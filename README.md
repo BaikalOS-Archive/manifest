@@ -5,6 +5,8 @@ BaikalOS Pie Source 2019
 
 [Crowdin for translations](https://crowdin.com/project/baikalos/)
 
+[![Crowdin](https://d322cqt584bo4o.cloudfront.net/baikalos/localized.svg)](https://translate.baikalos.ru/project/baikalos)
+
 Rom Downloads
 ===================
 
