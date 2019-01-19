@@ -1,9 +1,9 @@
+![LOGO](http://i.imgur.com/fv012v2.png)
+
 BaikalOS Pie Source 2019
 ===================
 
 [Crowdin for translations](https://crowdin.com/project/baikalos/)
-
-Contributing: now we dont have gerrit, so You are welcome with pull request: https://github.com/baikalos
 
 Rom Downloads
 ===================
@@ -125,6 +125,9 @@ After doing so, redo everything stated from the Building Section.
 
 ##### For those who successfully built BaikalOS
 
-Well, Congratulations on your victory! Now, you have a .zip file that flashable to your device! Share it to the internet as you wish but be sure to contribute back and also give credits to the BaikalOS Team and its contributors!Also keep in mind that if an official build exists for a device, no unofficial builds should be released publicly. Do come and build BaikalOS another time as source code is routinely being improved upon. If you wish to contibute, feel free to make a pull request to the BaikalOS Team! See you again builder!Note:If you decide to create a thread on xda, please use our [XDA_TEMPLATE](https://github.com/baikalos/manifest/blob/pi/XDA_TEMPLATE.md) 
+Well, Congratulations on your victory! Now, you have a .zip file that flashable to your device! Share it to the internet as you wish but be sure to contribute back and also give credits to the BaikalOS Team and its contributors!Also keep in mind that if an official build exists for a device, no unofficial builds should be released publicly. Do come and build BaikalOS another time as source code is routinely being improved upon. If you wish to contibute, feel free to make a pull request to the BaikalOS Team! See you again builder!Note:If you decide to create a thread on xda, please use our [XDA_TEMPLATE](https://github.com/baikalos/manifest/blob/pi/XDA_TEMPLATE.md)
+
+##### Official Builds
+If you want to make your build official and use our jenkins to regulary update your rom with delta ota support, welcome to our telegram channel: https://t.me/baikalos
 
 Thanks for Tutorian template to Ressurection Remix Team
