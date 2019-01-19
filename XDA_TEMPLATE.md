@@ -3,7 +3,7 @@ Please replace {VAR} with your values before past.
 
 ```
 [CENTER][SIZE="5"][B][COLOR="Blue"]BaikalOS Pie PowerSave[/COLOR][/B]: minimize your battery drain. 
-[img]https://i.imgur.com/dBdSYf2.png[/img][/SIZE]
+[img]http://i.imgur.com/fv012v2.png[/img][/SIZE]
 [CENTER][B]BaikalOS[/B] is our Android custom ROM variant with [B]powersave and stability as #1 priority[/B].
 Based on the Ground Zero Android Open Source Project ([B]GZOSP[/B]) and enriched by our developers with lots of custom enhancements and powersave features. [I]BaikalOS isn’t better, just powersave.[/i][/CENTER]
 [URL="https://www.baikalos.ru/"]What is BaikalOS?[/URL] | [URL="https://github.com/baikalos"]BaikalOS Source[/URL] | [URL="https://t.me/baikalos"]BaikalOS Telegram Channel (Support)[/URL]
