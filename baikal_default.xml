@@ -111,6 +111,8 @@
   <project path="system/bt" name="system_bt" remote="baikalos" groups="pdk" />
   <project path="vendor/baikalos" name="vendor_baikalos" remote="baikalos" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="baikalos" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="baikalos" />
+  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="baikalos" />
 
   <!-- Wlan -->
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="baikalos" />
