@@ -54,20 +54,23 @@
   <project path="hardware/ril-caf" name="hardware_ril" remote="baikalos" revision="9.0-caf" />
 
   <!-- Track audio-caf from our own -->
+  <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8952" />
   <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8994" />
   <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" remote="baikalos" revision="9.0-caf-8998" />
 
   <!-- Track media-caf from our own -->
+  <project path="hardware/qcom/media-caf/msm8952" name="hardware_qcom_media" remote="baikalos" revision="9.0-caf-8952" />
   <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="baikalos" revision="9.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" remote="baikalos" revision="9.0-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" remote="baikalos" revision="9.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" remote="baikalos" revision="9.0-caf-8998" />
 
-  <!-- Track display-caf-8998 and 8996 from our own -->
+  <!-- Track display-caf-8998, 8996 and 8952 from our own -->
   <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" remote="baikalos" revision="9.0-caf-8998" />
   <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" remote="baikalos" revision="9.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8952" name="hardware_qcom_display" remote="baikalos" revision="9.0-caf-8952" />
 
   <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" remote="gzosp" revision="9.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="gzosp" revision="9.0-caf-8974" />
