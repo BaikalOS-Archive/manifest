@@ -68,12 +68,12 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
 
       $ chmod a+x ~/bin/repo
 
-##### Creating directory for where the RR repo will be stored and synced
+##### Creating directory for where the BaikalOS repo will be stored and synced
 
-      $ mkdir ~/RR
-      $ cd ~/RR
+      $ mkdir ~/BaikalOS
+      $ cd ~/BaikalOS
 
-##### Initializing the RR repo and downloading the manifest
+##### Initializing the BaikalOS repo and downloading the manifest
 
       $  repo init -u https://github.com/baikalos/manifest.git -b pi
 
