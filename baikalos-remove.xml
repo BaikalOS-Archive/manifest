@@ -20,6 +20,6 @@
   <remove-project name="AICP/bionic" />
   <remove-project name="AICP/bootable_recovery" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
-  <remove-project path="hardware/qcom-caf/msm8996/audio" />
+  <remove-project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" />
 
 </manifest>
