@@ -6,7 +6,7 @@
 
   <remove-project name="AICP/build" />
   <remove-project name="AICP/build_soong" />
-  <remove-project name="LineageOS/android_external_tinycompress" />
+  <!-- remove-project name="LineageOS/android_external_tinycompress" / -->
 
   <remove-project name="AICP/frameworks_av" />
   <remove-project name="AICP/frameworks_base" />
