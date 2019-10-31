@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="AICP/platform_manifest" />
+  <remove-project name="AICP/vendor_aicp" />
+
+  <remove-project name="AICP/build" />
+  <remove-project name="AICP/build_soong" />
+  <remove-project name="LineageOS/android_external_tinycompress" />
+
+  <remove-project name="AICP/frameworks_av" />
+  <remove-project name="AICP/frameworks_base" />
+  <remove-project name="AICP/frameworks_native" />
+  <remove-project name="AICP/hardware_interfaces" />
+  <remove-project name="AICP/system_core" />
+
+  <remove-project name="LineageOS/android_system_bt" />
+
+  <remove-project name="AICP/device_aicp_sepolicy" />
+  <remove-project name="AICP/bionic" />
+  <remove-project name="AICP/bootable_recovery" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <remove-project path="hardware/qcom-caf/msm8996/audio" />
+
+</manifest>
