@@ -68,4 +68,8 @@
 
   <!-- Omni additions -->
   <project path="packages/apps/omniRecord" name="omnirom/android_packages_apps_omniRecord" remote="omni" />
+
+
+  <include name="baikalos-default.xml" />
+
 </manifest>
