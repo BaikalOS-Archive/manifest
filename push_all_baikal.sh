@@ -1,4 +1,6 @@
 #!/bin/bash
+cd $(ANDROID_BUILD_TOP)/.repo/manifests
+git push baikalos HEAD:q10.0
 cd $(ANDROID_BUILD_TOP)/frameworks/base
 git push baikalos HEAD:q10.0
 cd $(ANDROID_BUILD_TOP)/frameworks/av
