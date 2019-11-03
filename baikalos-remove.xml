@@ -22,4 +22,8 @@
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" />
 
+  <remove-project name="platform/external/boringssl" />
+
+  <remove-project name="AICP/system_vold" />
+
 </manifest>
