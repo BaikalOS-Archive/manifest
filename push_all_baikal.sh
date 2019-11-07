@@ -1,35 +1,52 @@
-#!/bin/bash
-cd $(ANDROID_BUILD_TOP)/.repo/manifests
+#!/bin/sh
+echo Manifest
+cd $ANDROID_BUILD_TOP/.repo/manifests
+git push origin HEAD:q10.0
+echo Base
+cd $ANDROID_BUILD_TOP/frameworks/base
 git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/frameworks/base
+echo AV
+cd $ANDROID_BUILD_TOP/frameworks/av
 git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/frameworks/av
+echo fw native
+cd $ANDROID_BUILD_TOP/frameworks/native
 git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/frameworks/native
+echo hw intf
+cd $ANDROID_BUILD_TOP/hardware/interfaces
 git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/hardware/interfaces
+echo vndk dumps
+cd $ANDROID_BUILD_TOP/prebuilts/abi-dumps/vndk/
 git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/prebuilts/abi-dumps/vndk/
+echo baikalos vendor
+cd $ANDROID_BUILD_TOP/vendor/baikalos/
 git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/vendor/baikalos/
+echo build make
+cd $ANDROID_BUILD_TOP/build/make/
 git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/build/make/
+echo build soong
+cd $ANDROID_BUILD_TOP/build/soong/
 git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/build/soong/
+echo bionic
+cd $ANDROID_BUILD_TOP/bionic/
 git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/bionic/
+echo bootable/recovery
+cd $ANDROID_BUILD_TOP/bootable/recovery/
 git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/bootable/recovery/
+echo system/bt
+cd $ANDROID_BUILD_TOP/system/bt/
 git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/system/bt/
+echo system/core
+cd $ANDROID_BUILD_TOP/system/core/
 git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/system/core/
+echo system/vold
+cd $ANDROID_BUILD_TOP/system/vold/
 git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/system/vold/
-git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/hardware/qcom-caf/msm8996/audio
+echo qcom-caf/auido
+cd $ANDROID_BUILD_TOP/hardware/qcom-caf/msm8996/audio
 git push baikalos HEAD:lineage-17.0-caf-msm8996
-cd $(ANDROID_BUILD_TOP)/packages/overlays/baikalos/
+echo baikalos overlay
+cd $ANDROID_BUILD_TOP/packages/overlays/baikalos/
 git push baikalos HEAD:q10.0
-cd $(ANDROID_BUILD_TOP)/external/boringssl
+echo boringssl
+cd $ANDROID_BUILD_TOP/external/boringssl
 git push baikalos HEAD:q10.0
