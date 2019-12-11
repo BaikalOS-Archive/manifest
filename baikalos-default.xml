@@ -33,6 +33,8 @@
   <project path="frameworks/native" name="Baikalos/frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="baikalos" />
   <project path="hardware/interfaces" name="Baikalos/hardware_interfaces" groups="pdk" remote="baikalos" />
   <project path="packages/apps/Settings" name="Baikalos/packages_apps_Settings" groups="pdk-fs" remote="baikalos" />
+  <project path="packages/apps/AicpExtras" name="Baikalos/packages_apps_AicpExtras" remote="baikalos" />
+
 
 
   <!-- project path="external/tinycompress" name="Baikalos/android_external_tinycompress" groups="pdk" remote="baikalos" / -->
