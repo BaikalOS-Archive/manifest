@@ -34,6 +34,7 @@
   <project path="hardware/interfaces" name="Baikalos/hardware_interfaces" groups="pdk" remote="baikalos" />
   <project path="packages/apps/Settings" name="Baikalos/packages_apps_Settings" groups="pdk-fs" remote="baikalos" />
   <project path="packages/apps/AicpExtras" name="Baikalos/packages_apps_AicpExtras" remote="baikalos" />
+  <project path="packages/apps/Bluetooth" name="Baikalos/packages_apps_Bluetooth" remote="baikalos" />
 
 
 
@@ -41,12 +42,10 @@
   <project path="system/core" name="Baikalos/system_core" groups="pdk" remote="baikalos" />
   <project path="system/bt" name="Baikalos/system_bt" groups="pdk" remote="baikalos" />
 
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" />
-
   <project path="device/baikalos/sepolicy" name="Baikalos/device_baikalos_sepolicy" remote="baikalos" />
   <project path="bionic" name="Baikalos/bionic" groups="pdk" remote="baikalos" />
   <project path="bootable/recovery" name="Baikalos/bootable_recovery" groups="pdk" remote="baikalos" />
-  <project path="prebuilts/abi-dumps/vndk" name="Baikalos/android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="baikalos" />
+  <!--project path="prebuilts/abi-dumps/vndk" name="Baikalos/android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="baikalos" / -->
 
 
   <project path="hardware/qcom-caf/msm8996/audio" name="Baikalos/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8996" remote="baikalos" />
@@ -60,7 +59,7 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8998" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-sm8150" remote="lineage" />
 
-  <project path="external/boringssl" name="Baikalos/android_external_boringssl" remote="baikalos"/>
+  <!--project path="external/boringssl" name="Baikalos/android_external_boringssl" remote="baikalos"/-->
 
   <project path="system/vold" name="Baikalos/system_vold" groups="pdk" remote="baikalos" />
 
