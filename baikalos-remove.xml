@@ -28,6 +28,6 @@
 
   <remove-project name="AICP/system_vold" />
 
-  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="AICP/packages_apps_Bluetooth" />
 
 </manifest>
