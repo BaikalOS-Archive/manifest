@@ -67,6 +67,7 @@
   <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="lineage" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" remote="lineage" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" remote="lineage" />
+  <project path="external/toybox" name="LineageOS/android_external_toybox" remote="lineage" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" remote="lineage" />
   <project path="external/vim" name="LineageOS/android_external_vim" remote="lineage" />
   <project path="external/zip" name="LineageOS/android_external_zip" remote="lineage" />
@@ -75,7 +76,6 @@
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="lineage" />
 
   <!-- Omni additions -->
-  <project path="packages/apps/omniRecord" name="omnirom/android_packages_apps_omniRecord" remote="omni" />
   <project path="packages/apps/Phonograph" name="omnirom/android_packages_apps_Phonograph" remote="omni" />
 
 
