@@ -33,8 +33,8 @@
   <project path="frameworks/native" name="Baikalos/frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="baikalos" />
   <project path="hardware/interfaces" name="Baikalos/hardware_interfaces" groups="pdk" remote="baikalos" />
   <project path="packages/apps/Settings" name="Baikalos/packages_apps_Settings" groups="pdk-fs" remote="baikalos" />
-  <project path="packages/apps/AicpExtras" name="Baikalos/packages_apps_AicpExtras" remote="baikalos" />
-  <project path="packages/apps/Bluetooth" name="Baikalos/packages_apps_Bluetooth" remote="baikalos" />
+  <!-- project path="packages/apps/BaikalExtras" name="Baikalos/packages_apps_BaikalExtras" remote="baikalos" / -->
+  <project path="packages/apps/Bluetooth" name="Baikalos/android_packages_apps_Bluetooth" remote="baikalos" />
 
 
 
@@ -61,6 +61,22 @@
 
   <!--project path="external/boringssl" name="Baikalos/android_external_boringssl" remote="baikalos"/-->
 
+  <project path="system/hardware/interfaces" name="Baikalos/android_system_hardware_interfaces" groups="pdk" remote="baikalos" />
   <project path="system/vold" name="Baikalos/system_vold" groups="pdk" remote="baikalos" />
+  <project path="system/netd" name="Baikalos/system_netd" groups="pdk" remote="baikalos" />
+  <project path="hardware/lineage/interfaces" name="Baikalos/hardware_lineage_interfaces" remote="baikalos" />
+  <project path="external/tinycompress" name="Baikalos/external_tinycompress" groups="pdk" remote="baikalos" />
+  <project path="packages/apps/AicpExtras" name="Baikalos/packages_apps_AicpExtras" remote="baikalos" />
+  <project path="packages/apps/BaikalExtras" name="Baikalos/packages_apps_BaikalExtras" remote="baikalos" />
+  <project path="packages/services/Telecomm" name="Baikalos/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="baikalos" />
+  <project path="device/qcom/sepolicy" name="Baikalos/device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="baikalos" />
+  <project path="device/qcom/sepolicy-legacy" name="Baikalos/device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="q10.0-legacy" remote="baikalos" />
+  <project path="device/qcom/sepolicy-legacy-um" name="Baikalos/device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="q10.0-legacy-um" remote="baikalos" />
+
+
+  <!-- Experimental -->
+
+  <project path="packages/apps/TouchGestures" name="AICP/packages_apps_TouchGestures" remote="aicp" />
+
 
 </manifest>

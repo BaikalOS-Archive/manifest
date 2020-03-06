@@ -14,7 +14,6 @@
   <remove-project name="AICP/hardware_interfaces" />
   <remove-project name="AICP/system_core" />
   <remove-project name="AICP/packages_apps_Settings" />
-  <remove-project name="AICP/packages_apps_AicpExtras" />
 
   <remove-project name="AICP/system_bt" />
 
@@ -26,8 +25,17 @@
 
   <!--remove-project name="platform/external/boringssl" /-->
 
+  <remove-project name="LineageOS/android_system_hardware_interfaces" />
+
   <remove-project name="AICP/system_vold" />
+  <remove-project name="AICP/system_netd" />
 
   <remove-project name="AICP/packages_apps_Bluetooth" />
+  <remove-project name="AICP/hardware_lineage_interfaces" />
+  <remove-project name="AICP/external_tinycompress" />
+  <remove-project name="AICP/packages_apps_AicpExtras" />
+  <remove-project name="AICP/packages_services_Telecomm" />
+
+  <remove-project name="AICP/device_qcom_sepolicy" />
 
 </manifest>
