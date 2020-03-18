@@ -31,6 +31,7 @@
   <project path="frameworks/av" name="Baikalos/frameworks_av" groups="pdk" remote="baikalos" />
   <project path="frameworks/base" name="Baikalos/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="baikalos" />
   <project path="frameworks/native" name="Baikalos/frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="baikalos" />
+  <project path="frameworks/opt/telephony" name="Baikalos/android_frameworks_opt_telephony" groups="pdk" remote="baikalos" />
   <project path="hardware/interfaces" name="Baikalos/hardware_interfaces" groups="pdk" remote="baikalos" />
   <project path="packages/apps/Settings" name="Baikalos/packages_apps_Settings" groups="pdk-fs" remote="baikalos" />
   <!-- project path="packages/apps/BaikalExtras" name="Baikalos/packages_apps_BaikalExtras" remote="baikalos" / -->
