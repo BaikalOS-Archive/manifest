@@ -69,6 +69,7 @@
   <project path="external/tinycompress" name="Baikalos/external_tinycompress" groups="pdk" remote="baikalos" />
   <project path="packages/apps/AicpExtras" name="Baikalos/packages_apps_AicpExtras" remote="baikalos" />
   <project path="packages/apps/BaikalExtras" name="Baikalos/packages_apps_BaikalExtras" remote="baikalos" />
+  <project path="packages/apps/BaikalDelta" name="Baikalos/android_packages_apps_BaikalDelta" remote="baikalos" />
   <project path="packages/services/Telecomm" name="Baikalos/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="baikalos" />
   <project path="device/qcom/sepolicy" name="Baikalos/device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="baikalos" />
   <project path="device/qcom/sepolicy-legacy" name="Baikalos/device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="q10.0-legacy" remote="baikalos" />
