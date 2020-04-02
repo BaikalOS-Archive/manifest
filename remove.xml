@@ -8,8 +8,10 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/development" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/openssh" />
@@ -69,6 +71,7 @@
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/netd" />
