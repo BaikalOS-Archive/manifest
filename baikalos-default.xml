@@ -49,16 +49,16 @@
   <!--project path="prebuilts/abi-dumps/vndk" name="Baikalos/android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="baikalos" / -->
 
 
-  <project path="hardware/qcom-caf/msm8996/audio" name="Baikalos/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8996" remote="baikalos" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="Baikalos/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-sdm845" remote="baikalos" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="Baikalos/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8996" remote="baikalos" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="Baikalos/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-sdm845" remote="baikalos" />
 
-  <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8916" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8952/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8952" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8960/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8960" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8974/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8974" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8994/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8994" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8998" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-sm8150" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8916" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8952/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8952" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8960/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8960" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8974/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8974" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8994/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8994" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8998" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-sm8150" remote="lineage" />
 
   <!--project path="external/boringssl" name="Baikalos/android_external_boringssl" remote="baikalos"/-->
 
