@@ -6,7 +6,7 @@
            revision="refs/heads/q10.0"
            sync-j="8" />
 
-	<remote  name="gitlab"
+	<remote  name="baikalgitlab"
 	   fetch="https://gitlab.com/"
            review="gerrit.baikalos.com"
            revision="refs/heads/q10.0"
@@ -85,6 +85,6 @@
 
   <project path="packages/apps/TouchGestures" name="AICP/packages_apps_TouchGestures" remote="aicp" />
 
-  <project path="external/motorola/faceunlock" name="baikalos/external_motorola_faceunlock" remote="gitlab" />
+  <project path="external/motorola/faceunlock" name="baikalos/external_motorola_faceunlock" remote="baikalgitlab" />
 
 </manifest>
