@@ -86,5 +86,6 @@
   <project path="packages/apps/TouchGestures" name="AICP/packages_apps_TouchGestures" remote="aicp" />
 
   <project path="external/motorola/faceunlock" name="baikalos/external_motorola_faceunlock" remote="baikalgitlab" />
+  <project path="external/asus/stitchimage" name="baikalos/external_asus_stitchimage" remote="baikalgitlab" />
 
 </manifest>
