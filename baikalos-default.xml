@@ -53,6 +53,7 @@
   <project path="bootable/recovery" name="Baikalos/bootable_recovery" groups="pdk" remote="baikalos" />
   <!--project path="prebuilts/abi-dumps/vndk" name="Baikalos/android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="baikalos" / -->
 
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-17.1" remote="lineage" />
 
   <project path="hardware/qcom-caf/msm8996/audio" name="Baikalos/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8996" remote="baikalos" />
   <project path="hardware/qcom-caf/sdm845/audio" name="Baikalos/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-sdm845" remote="baikalos" />
