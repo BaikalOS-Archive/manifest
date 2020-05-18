@@ -37,6 +37,6 @@
   <remove-project name="AICP/packages_services_Telecomm" />
 
   <remove-project name="AICP/device_qcom_sepolicy" />
-  <remove-project name="AICP/android_frameworks_opt_telephony" />
+  <remove-project name="AICP/frameworks_opt_telephony" />
 
 </manifest>
