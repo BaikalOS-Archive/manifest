@@ -38,5 +38,6 @@
 
   <remove-project name="AICP/device_qcom_sepolicy" />
   <remove-project name="AICP/frameworks_opt_telephony" />
+  <remove-project name="AICP/packages_apps_Updater" />
 
 </manifest>
