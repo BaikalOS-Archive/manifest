@@ -88,7 +88,8 @@
 
   <!-- Other additions -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
-
+  <project path="external/pulse" name="DirtyUnicorns/android_external_pulse" remote="github" revision="q10x" />
 
   <include name="baikalos-default.xml" />
+
 </manifest>
