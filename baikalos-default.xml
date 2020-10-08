@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="baikalos"
+	   fetch="https://github.com/"
+           review="gerrit.baikalos.com"
+           revision="refs/heads/r11.0"
+           sync-j="8" />
+
+	<remote  name="baikalgitlab"
+	   fetch="https://gitlab.com/"
+           review="gerrit.baikalos.com"
+           revision="refs/heads/q10.0"
+           sync-j="8" />
+
+  <include name="baikalos-remove.xml" />
+
+  <project path="platform_manifest" name="BaikalOS/manifest" remote="baikalos" />
+
+  <project path="build/make" name="Baikalos/build" groups="pdk" remote="baikalos" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="Baikalos/build_soong" groups="pdk,tradefed" remote="baikalos" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="vendor/baikalos" name="Baikalos/vendor_baikalos" remote="baikalos" />
+  <project path="packages/apps/BaikalExtras" name="Baikalos/packages_apps_BaikalExtras" remote="baikalos" />
+
+  <!-- AICP packages -->
+  <!-- project path="packages/apps/AicpExtras" name="Baikalos/packages_apps_AicpExtras" remote="baikalos" / -->
+
+  <!-- AOSP packages -->
+  <project path="packages/apps/Settings" name="Baikalos/packages_apps_Settings" groups="pdk-fs" remote="baikalos" />
+
+  <!-- project path="external/motorola/faceunlock" name="baikalos/external_motorola_faceunlock" remote="baikalgitlab" / -->
+  <!-- project path="external/asus/stitchimage" name="baikalos/external_asus_stitchimage" remote="baikalgitlab" / -->
+
+</manifest>
