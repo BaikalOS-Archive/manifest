@@ -30,16 +30,32 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+
+  <project path="frameworks/base" name="Baikalos/android_frameworks_base" remote="baikalos" />
+
   <project path="vendor/baikalos" name="Baikalos/vendor_baikalos" remote="baikalos" />
   <project path="packages/apps/BaikalExtras" name="Baikalos/packages_apps_BaikalExtras" remote="baikalos" />
 
+
   <!-- AICP packages -->
-  <!-- project path="packages/apps/AicpExtras" name="Baikalos/packages_apps_AicpExtras" remote="baikalos" / -->
+  <project path="packages/apps/AicpExtras" name="Baikalos/packages_apps_AicpExtras" remote="baikalos" />
 
   <!-- AOSP packages -->
   <project path="packages/apps/Settings" name="Baikalos/packages_apps_Settings" groups="pdk-fs" remote="baikalos" />
 
+
+  <!-- project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-18.0" remote="lineage" / -->
+
   <!-- project path="external/motorola/faceunlock" name="baikalos/external_motorola_faceunlock" remote="baikalgitlab" / -->
   <!-- project path="external/asus/stitchimage" name="baikalos/external_asus_stitchimage" remote="baikalgitlab" / -->
+
+  <!-- include name="baikalos-caf.xml" / -->
+
+  <!-- Omni additions -->
+  <project path="packages/apps/Phonograph" name="omnirom/android_packages_apps_Phonograph" remote="omni" />
+
+  <!-- Other additions -->
+  <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" />
 
 </manifest>

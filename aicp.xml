@@ -67,4 +67,6 @@
   <project path="packages/apps/ThemePicker" name="AICP/packages_apps_ThemePicker" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
 
+  <include name="baikalos-default.xml" />
+
 </manifest>
