@@ -3,13 +3,13 @@
 	<remote  name="baikalos"
 	   fetch="https://github.com/"
            review="gerrit.baikalos.com"
-           revision="refs/heads/r11.0"
+           revision="refs/heads/r11.1"
            sync-j="8" />
 
 	<remote  name="baikalgitlab"
 	   fetch="https://gitlab.com/"
            review="gerrit.baikalos.com"
-           revision="refs/heads/q10.0"
+           revision="refs/heads/r11.1"
            sync-j="8" />
 
   <include name="baikalos-remove.xml" />
@@ -30,21 +30,22 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-
   <project path="frameworks/base" name="Baikalos/android_frameworks_base" remote="baikalos" />
+  <project path="frameworks/av" name="Baikalos/frameworks_av" remote="baikalos" />
 
   <project path="vendor/baikalos" name="Baikalos/vendor_baikalos" remote="baikalos" />
   <project path="packages/apps/BaikalExtras" name="Baikalos/packages_apps_BaikalExtras" remote="baikalos" />
-
 
   <!-- AICP packages -->
   <project path="packages/apps/AicpExtras" name="Baikalos/packages_apps_AicpExtras" remote="baikalos" />
 
   <!-- AOSP packages -->
   <project path="packages/apps/Settings" name="Baikalos/packages_apps_Settings" groups="pdk-fs" remote="baikalos" />
+  <project path="packages/apps/Bluetooth" name="Baikalos/android_packages_apps_Bluetooth" remote="baikalos" />
+  <project path="system/bt" name="Baikalos/system_bt" groups="pdk" remote="baikalos" />
+  <project path="hardware/interfaces" name="Baikalos/hardware_interfaces" groups="pdk" remote="baikalos" />
 
-
-  <!-- project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-18.0" remote="lineage" / -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-18.1" remote="lineage" />
 
   <!-- project path="external/motorola/faceunlock" name="baikalos/external_motorola_faceunlock" remote="baikalgitlab" / -->
   <!-- project path="external/asus/stitchimage" name="baikalos/external_asus_stitchimage" remote="baikalgitlab" / -->
@@ -54,8 +55,6 @@
   <!-- Omni additions -->
   <project path="packages/apps/Phonograph" name="omnirom/android_packages_apps_Phonograph" remote="omni" />
 
-  <!-- Other additions -->
-  <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="Baikalos/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-sdm845" remote="baikalos" />
 
 </manifest>
