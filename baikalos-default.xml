@@ -30,6 +30,11 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+
+  <project path="external/selinux" name="Baikalos/android_external_selinux" groups="pdk" remote="baikalos" />
+  <project path="system/core" name="Baikalos/system_core" groups="pdk" remote="baikalos" />
+
+
   <project path="frameworks/base" name="Baikalos/android_frameworks_base" remote="baikalos" />
   <project path="frameworks/av" name="Baikalos/frameworks_av" remote="baikalos" />
   <project path="frameworks/native" name="Baikalos/frameworks_native" remote="baikalos" />
@@ -59,5 +64,4 @@
   <project path="hardware/qcom-caf/sdm845/audio" name="Baikalos/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-sdm845" remote="baikalos" />
   <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-msm8996" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="Baikalos/android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="baikalos" />
-
 </manifest>

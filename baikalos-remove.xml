@@ -19,13 +19,17 @@
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="AICP/frameworks_native" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="AICP/system_core" />
+
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
+
 
   <!-- remove-project name="LineageOS/android_packages_apps_Updater" / -->
 
   <!-- remove-project name="LineageOS/android_external_tinycompress" / -->
 
   <!-- remove-project name="AICP/frameworks_av" />
-  <remove-project name="AICP/system_core" />
 
 
   <remove-project name="AICP/device_aicp_sepolicy" />
@@ -46,6 +50,4 @@
 
   <remove-project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" /-->
   <remove-project path="hardware/qcom-caf/sdm845/audio" name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
-
 </manifest>
