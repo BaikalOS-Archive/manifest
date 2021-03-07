@@ -32,6 +32,7 @@
 
   <project path="frameworks/base" name="Baikalos/android_frameworks_base" remote="baikalos" />
   <project path="frameworks/av" name="Baikalos/frameworks_av" remote="baikalos" />
+  <project path="frameworks/native" name="Baikalos/frameworks_native" remote="baikalos" />
 
   <project path="vendor/baikalos" name="Baikalos/vendor_baikalos" remote="baikalos" />
   <project path="packages/apps/BaikalExtras" name="Baikalos/packages_apps_BaikalExtras" remote="baikalos" />
@@ -47,14 +48,16 @@
 
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-18.1" remote="lineage" />
 
-  <!-- project path="external/motorola/faceunlock" name="baikalos/external_motorola_faceunlock" remote="baikalgitlab" / -->
+  <project path="external/motorola/faceunlock" name="baikalos/external_motorola_faceunlock" remote="baikalgitlab" />
   <!-- project path="external/asus/stitchimage" name="baikalos/external_asus_stitchimage" remote="baikalgitlab" / -->
 
   <!-- include name="baikalos-caf.xml" / -->
 
   <!-- Omni additions -->
-  <project path="packages/apps/Phonograph" name="omnirom/android_packages_apps_Phonograph" remote="omni" />
+  <!-- project path="packages/apps/Phonograph" name="omnirom/android_packages_apps_Phonograph" remote="omni" / -->
 
   <project path="hardware/qcom-caf/sdm845/audio" name="Baikalos/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-sdm845" remote="baikalos" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-msm8996" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="Baikalos/android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="baikalos" />
 
 </manifest>
