@@ -41,6 +41,7 @@
 
   <project path="vendor/baikalos" name="Baikalos/vendor_baikalos" remote="baikalos" />
   <project path="packages/apps/BaikalExtras" name="Baikalos/packages_apps_BaikalExtras" remote="baikalos" />
+  <project path="packages/apps/BaikalDelta" name="Baikalos/android_packages_apps_BaikalDelta" remote="baikalos" />
 
   <!-- AICP packages -->
   <project path="packages/apps/AicpExtras" name="Baikalos/packages_apps_AicpExtras" remote="baikalos" />
