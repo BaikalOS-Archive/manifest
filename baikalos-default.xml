@@ -33,6 +33,7 @@
 
   <project path="external/selinux" name="Baikalos/android_external_selinux" groups="pdk" remote="baikalos" />
   <project path="system/core" name="Baikalos/system_core" groups="pdk" remote="baikalos" />
+  <project path="external/toybox" name="Baikalos/android_external_toybox" groups="pdk" remote="baikalos" />
 
 
   <project path="frameworks/base" name="Baikalos/android_frameworks_base" remote="baikalos" />
