@@ -44,6 +44,9 @@
   <project path="packages/apps/BaikalExtras" name="Baikalos/packages_apps_BaikalExtras" remote="baikalos" />
   <project path="packages/apps/BaikalDelta" name="Baikalos/android_packages_apps_BaikalDelta" remote="baikalos" />
 
+
+  <project path="packages/overlays/BaikalOS" name="Baikalos/packages_overlays_BaikalOS" remote="baikalos" />
+
   <!-- AICP packages -->
   <project path="packages/apps/AicpExtras" name="Baikalos/packages_apps_AicpExtras" remote="baikalos" />
 
