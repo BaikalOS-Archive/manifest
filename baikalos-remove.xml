@@ -26,7 +26,9 @@
   <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
 
-  <remove-project  name="AICP/packages_overlays_AICP" />
+  <remove-project name="AICP/packages_overlays_AICP" />
+
+
 
   <!-- remove-project name="LineageOS/android_packages_apps_Updater" / -->
 
