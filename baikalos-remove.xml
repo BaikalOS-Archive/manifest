@@ -9,6 +9,7 @@
   <remove-project name="AICP/packages_apps_Settings" />
   <remove-project name="AICP/packages_apps_AicpExtras" />
   <remove-project name="AICP/frameworks_base" />
+  <remove-project name="AICP/frameworks_av" />
 
   <remove-project name="AICP/packages_apps_Updater" />
 
@@ -17,7 +18,7 @@
   <remove-project name="LineageOS/android_system_bt" />
   <remove-project name="LineageOS/android_hardware_interfaces" />
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
-  <remove-project name="LineageOS/android_frameworks_av" />
+  <!-- remove-project name="LineageOS/android_frameworks_av" / -->
   <remove-project name="AICP/frameworks_native" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="AICP/system_core" />
